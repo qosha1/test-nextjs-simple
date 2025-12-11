@@ -1,3 +1,4 @@
+// Production test - Dec 11, 2025
 export default function Home() {
   return (
     <div>
