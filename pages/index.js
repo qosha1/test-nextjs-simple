@@ -8,3 +8,4 @@ export default function Home() {
   );
 }
 // Health check fix test - Thu Dec 11 14:51:45 PST 2025
+// ECS health check in task def - Thu Dec 11 15:24:13 PST 2025
