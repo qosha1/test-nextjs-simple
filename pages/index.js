@@ -18,7 +18,7 @@ export default function Home() {
     e.preventDefault();
     const errs = validate();
     setErrors(errs);
-    if (Object.keys(errs).length > 0) {
+    if (Object.keys(errs).length === 0) {
       setSubmitted(true);
     }
   }
