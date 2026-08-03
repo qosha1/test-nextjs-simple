@@ -33,6 +33,7 @@ export default function Home() {
   return (
     <div style={{ maxWidth: 600, margin: "0 auto", padding: 40, fontFamily: "sans-serif" }}>
       <h1>Welcome to Next.js Simple</h1>
+      <p><a href="/status" data-testid="status-link">System status</a></p>
       <p>This is a simple Next.js test application.</p>
 
       <h2>Contact Us</h2>
