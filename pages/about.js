@@ -1,9 +1,3 @@
-export async function getServerSideProps() {
-  // Regression: about-page settings service returns nothing; unguarded access 500s.
-  const settings = null;
-  return { props: { heading: settings.heading } };
-}
-
 export default function About() {
   return (
     <div>
