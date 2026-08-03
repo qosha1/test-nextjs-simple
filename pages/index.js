@@ -34,7 +34,7 @@ export default function Home() {
     <div style={{ maxWidth: 600, margin: "0 auto", padding: 40, fontFamily: "sans-serif" }}>
       <h1>Welcome to Next.js Simple</h1>
       <p>This is a simple Next.js test application.</p>
-      <p data-testid="subtitle">Now with a contact form — reach out any time!</p>
+      <p data-testid="subtitle">Now with a contact form — reach out any time. We usually reply within a day.</p>
 
       <h2>Contact Us</h2>
       {submitted ? (
